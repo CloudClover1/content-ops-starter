@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to C3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #f4f4f4;
+        }
+        header {
+            background-color: #1e1e2f;
+            color: #e94560;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+            color: #c4c4c4;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            text-align: center;
+        }
+        .service-card {
+            background: #1e1e2f;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+        }
+        .service-card h2 {
+            color: #e94560;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e2f;
+            color: #c4c4c4;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to C3</h1>
+        <p>Elevating Esports Beyond the Limits</p>
+    </header>
+
+    <section class="services">
+        <div class="service-card">
+            <h2>Professional Tournaments</h2>
+            <p>Experience the thrill of competitive gaming through our meticulously organized tournaments for all skill levels.</p>
+        </div>
+        <div class="service-card">
+            <h2>Broadcast & Analysis</h2>
+            <p>Our top-tier casters and analysts deliver immersive and insightful coverage of every match.</p>
+        </div>
+        <div class="service-card">
+            <h2>Community Engagement</h2>
+            <p>We build bridges in the esports world, connecting players, teams, and fans through events and interactions.</p>
+        </div>
+        <div class="service-card">
+            <h2>Player Development</h2>
+            <p>Supporting rising stars with training programs and exposure to help them shine on the global stage.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 C3. All Rights Reserved. | Designed for the Esports Community</p>
+    </footer>
+</body>
+</html>
